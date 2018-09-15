@@ -103,7 +103,7 @@ else
 
 ' > "$PRIVATE_HEADER"
     echo 'ext {
-  spropStoreFile = "../tools/android/debug.keystore"
+  spropStoreFile = "../core/tools/android/debug.keystore"
   spropStorePassword = "12345678"
   spropKeyAlias = "debug"
   spropKeyPassword = "12345678"
