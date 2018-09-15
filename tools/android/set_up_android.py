@@ -26,7 +26,7 @@ def find_recursive(root, subpath, maxdepth=4):
   return None
 
 def read_local_properties():
-  androidRoot = os.path.join(os.path.dirname(sys.argv[0]), '..', '..', 'android')
+  androidRoot = os.path.join(os.path.dirname(sys.argv[0]), '..', '..', '..', 'android')
   propsFile = os.path.join(androidRoot, 'local.properties')
   sdkDir = None
   ndkDir = None
@@ -68,7 +68,7 @@ def write_local_properties(sdkDir, ndkDir):
   ]])
 
   # Create omim/android/local.properties
-  androidRoot = os.path.join(os.path.dirname(sys.argv[0]), '..', '..', 'android')
+  androidRoot = os.path.join(os.path.dirname(sys.argv[0]), '..', '..', '..', 'android')
   propsFile = os.path.join(androidRoot, 'local.properties')
   print('Writing {0}'.format(propsFile))
   with open(propsFile, 'w') as f:
