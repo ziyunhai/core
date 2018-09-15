@@ -6,10 +6,10 @@ set -e -u
 
 BASE_PATH=`dirname "$0"`
 PRIVATE_HEADER="$BASE_PATH/private.h"
-PRIVATE_PROPERTIES="$BASE_PATH/android/secure.properties"
-PRIVATE_FABRIC_PROPERTIES="$BASE_PATH/android/fabric.properties"
-PRIVATE_PUSHWOOSH_PROPERTIES="$BASE_PATH/android/pushwoosh.properties"
-PRIVATE_LIBNOTIFY_PROPERTIES="$BASE_PATH/android/libnotify.properties"
+PRIVATE_PROPERTIES="$BASE_PATH/../android/secure.properties"
+PRIVATE_FABRIC_PROPERTIES="$BASE_PATH/../android/fabric.properties"
+PRIVATE_PUSHWOOSH_PROPERTIES="$BASE_PATH/../android/pushwoosh.properties"
+PRIVATE_LIBNOTIFY_PROPERTIES="$BASE_PATH/../android/libnotify.properties"
 SAVED_PRIVATE_REPO_FILE="$BASE_PATH/.private_repository_url"
 TMP_REPO_DIR="$BASE_PATH/.tmp.private.repo"
 
